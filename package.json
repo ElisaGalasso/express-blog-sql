@@ -1,4 +1,24 @@
 {
+  "name": "express-blog-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElisaGalasso/express-blog-sql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElisaGalasso/express-blog-sql/issues"
+  },
+  "homepage": "https://github.com/ElisaGalasso/express-blog-sql#readme",
   "dependencies": {
     "express": "^5.1.0",
     "mysql2": "^3.15.3"
